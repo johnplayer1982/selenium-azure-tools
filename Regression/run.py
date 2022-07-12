@@ -8,7 +8,7 @@ api_session = requests.Session()
 api_session.auth = (username, authkey)
 test_result = None
 build = "Dev"
-release = "Azure Test Development - {}".format(build)
+release = "Azure Tools Development - {}".format(build)
 baseUrl = "https://test.moneyhelper.org.uk"
 
 caps = {
