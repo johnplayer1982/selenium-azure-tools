@@ -9,6 +9,7 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+steps:
 - task: CBTMain@0
   inputs:
     connectedServiceName: 'CBT'
